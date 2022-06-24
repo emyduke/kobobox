@@ -3,9 +3,14 @@
 
 <head>
     <meta charset="utf-8">
+    <title>Kobobox</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="static//images/logos/Box1.png">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KoboBox</title>
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/assets/css/main.css">
 </head>
 
 <body>
@@ -13,13 +18,17 @@
     <header class="navbar bg-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="assets/images/logo.svg" />
+                <div class="logo-btn"><img src="static/images/logos/logo.png" width="70" /></div>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+
+            
+            <!-- create another items here for larger screens -->
+
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            <div class="offcanvas offcanvas-end d-md-none" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
@@ -57,7 +66,8 @@
         </div>
     </header>
 
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="static/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="static/assets/js/main.js"></script>
 </body>
 
 </html>
