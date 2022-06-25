@@ -1,5 +1,128 @@
+
+
+*{
+    font-family: "kobobox-semibold";
+}
+
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url("../../artboards/menu-dark.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #40A4D3;
+    border-bottom: 1px solid #40A4D3;
+}
+
+.btn{
+    border-radius: 25px;
+}
+
+
 .logo-btn{
     padding: 0px 3px 1px 3px;
     background-color: white;
     border-radius: 15px;
+}
+
+
+.banner-section{
+    background-image: url(../../artboards/header-bg1.svg);
+    background-size: cover;
+    height: 120vh;
+    background-repeat: no-repeat;
+}
+
+.banner-section h1{
+    font-family: "poppins-semibold";
+    color: white;
+    /* line-height: 70px; */
+    /* font-size: 64px; */
+}
+
+
+.why-section h3.heading, .kobobox-agent-section h3.heading{
+    font-family: "poppins-medium";
+}
+
+.why-section img{
+    max-width: 80px;
+}
+
+
+
+.why-section h3.title{
+    font-family: "poppins-bold";
+}
+
+.why-section .card{
+    border: none;
+}
+
+.bg--primary{
+    background-color: #E3EDF5;
+}
+
+.bg--secondary{
+    background-color: #FAECDC;
+}
+
+.bg--dark{
+    background-color: #153746;
+}
+
+.text--primary{
+    color: #40A4D3;
+}
+.text--secondary{
+    color: #546581;
+}
+
+.how-it-works h5, .how-it-works h4, .kobobox-agent-section h4, .get-started-section .col h6{
+    font-family: "poppins-semibold";
+}
+
+.kobobox-list img{
+    max-width: 20px;
+}
+
+.kobobox-list p{
+    margin-bottom: 0;
+}
+
+.kobobox-agent-section p.first{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.get-started-section .col .card img{
+    max-width: 40px;
+}
+
+.get-started-section .col .card p{
+    font-size: 12px;
+}
+
+
+.slick-prev:before, .slick-next:before {
+    color: #306A90;
+    ;
 }

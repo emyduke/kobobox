@@ -10,13 +10,16 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="static/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/assets/css/fonts.css">
+    <link rel="stylesheet" href="static/assets/slick/slick.css">
+    <link rel="stylesheet" href="static/assets/slick/slick-theme.css">
     <link rel="stylesheet" href="static/assets/css/main.css">
 </head>
 
 <body>
 
-    <header class="navbar bg-light fixed-top">
-        <div class="container-fluid">
+    <header class="navbar navbar-expand-md fixed-top ">
+        <div class="container">
             <a class="navbar-brand" href="#">
                 <div class="logo-btn"><img src="static/images/logos/logo.png" width="70" /></div>
             </a>
@@ -24,11 +27,11 @@
             
             <!-- create another items here for larger screens -->
 
-            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end d-md-none" tabindex="-1" id="offcanvasNavbar"
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
@@ -40,33 +43,308 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#">About us</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    <div class="d-flex">
+                        <a href="" class="btn btn-outline-light px-4" >Login</a>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
+
+    <div class="wrapper">
+        <div class="banner-section">
+            <div class="container" style="padding-top: 150px">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center h-100">
+                            <div>
+                                <h1>INCLUSIVE <br/>ALTERNATIVE <br/>FINANCE FOR ALL</h1>
+                                <div class="mt-4">
+                                    <a href="" class="btn btn-light px-5">Get started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="static/artboards/graph.svg" class="mx-auto d-block" width="95%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container why-section mt-5">
+            <h3 class="text-center heading mb-5">Why save with Kobobox?</h3>
+
+            <div class="row gx-5">
+                <div class="col-md-6">
+                    <div class="card bg--primary py-5 mb-5">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-3">
+                                <img src="static/artboards/convenience.svg" class="mx-auto d-block" alt="">
+                            </div>
+                            <h3 class="title text-center mb-3 text--primary">Convenience</h3>
+                            <div>
+                                <p class="text-center">
+                                    You don’t have to worry about leaving your 
+                                    shops. Our dedicated kobobox agents
+                                    will come to you daily to collect your 
+                                    savings contributions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card bg--secondary py-5 mb-5">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-3">
+                                <img src="static/artboards/transparency.svg" class="mx-auto d-block" alt="">
+                            </div>
+                            <h3 class="title text-center text--secondary mb-3">Transparency</h3>
+                            <div>
+                                <p class="text-center">
+                                    With our kobobox system, our agents 
+                                    record your savings and you receive instant 
+                                    SMS alert confirming your deposit and 
+                                    update on your balance from inception
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="card bg--secondary py-5 mb-5">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-3">
+                                <img src="static/artboards/security.svg" class="mx-auto d-block" alt="">
+                            </div>
+                            <h3 class="title text-center mb-3 text--secondary">Security</h3>
+                            <div>
+                                <p class="text-center">
+                                    With all our operations safety features 
+                                    and secured payment channels, we are committed to maintaining a safe zone
+                                    for all our users.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="card bg--primary py-5 mb-5">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-3">
+                                <img src="static/artboards/credit-score.svg" class="mx-auto d-block" alt="">
+                            </div>
+                            <h3 class="title text-center text--primary mb-3">Build Credit Score</h3>
+                            <div>
+                                <p class="text-center">
+                                    By simply participating in any koboBox savings plan, you can boost your credit score over time. 
+                                    The will enhance your access to soft loan/overdraft on your account.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!-- How it works -->
+        <div class="container how-it-works mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center h-100">
+                        <div>
+                            <h5>Make Savings a culture</h5>
+                            <h4 class="text--primary">How it Works</h4>
+    
+                            <div>
+                                <ul class="kobobox-list list-unstyled">
+                                    <li><table><tr><td><img src="static/artboards/check.svg" alt=""></td><td>Sign up with a kobobox agent in your community</td></tr></table></li>
+                                    <li><table><tr><td><img src="static/artboards/check.svg" alt=""></td><td>Select a savings plan</td></tr></table></li>
+                                    <li><table><tr><td><img src="static/artboards/check.svg" alt=""></td><td>Make daily , weekly or monthly savings contribution to your agent</td></tr></table></li>
+                                    <li><table><tr><td><img src="static/artboards/check.svg" alt=""></td><td>Get instant SMS alert update on your savings</td></tr></table></li>
+                                    <li><table><tr><td><img src="static/artboards/check.svg" alt=""></td><td>Your agent will always be within reach so that you never worry about about making withdrawal during an emergency</td></tr></table></li>
+                                    <li><table><tr><td><img src="static/artboards/check.svg" alt=""></td><td>Upon maturity the total amount saved will be automatically transferred to your choice bank account</td></tr></table></li>
+                                </ul>
+                            </div>
+
+                            <div class="mt-4">
+                                <a href="" class="btn btn-dark px-5">Get started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="static/artboards/hiw.svg" class="mx-auto d-block" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container kobobox-agent-section mt-5">
+            <h3 class="text-center heading pt-5">Become a Kobobox Agent</h3>
+            <p class="text-center first">Be your own boss your own boss. Join force with kobobox to restore trust in informal 
+                savings collection in Nigeria and earn while doing so.
+                We are building inclusion and Financial healthy communities.</p>
+
+
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="static/artboards/agent.svg" class="mx-auto d-block" width="90%" alt="">
+                </div>
+                <div class="col-md-7">
+                    <div class="d-flex align-items-center h-100">
+                        <div>
+                            <h4 class="text-primary">Requirements</h4>
+                            <ul class="kobobox-list list-unstyled">
+                                <li><table><tr><td><img src="static/artboards/check.svg" alt=""></td><td>Own a smart phone</td></tr></table></li>
+                                <li><table><tr><td><img src="static/artboards/check.svg" alt=""></td><td>Be at least 18 years</td></tr></table></li>
+                                <li><table><tr><td><img src="static/artboards/check.svg" alt=""></td><td>Have at least secondary school leaving certificate</td></tr></table></li>
+                                <li><table><tr><td><img src="static/artboards/check.svg" alt=""></td><td>Have a functional email address and know how to send and receive emails</td></tr></table></li>
+                                <li><table><tr><td><img src="static/artboards/check.svg" alt=""></td><td>Must be very mobile</td></tr></table></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="container get-started-section mt-5">
+            <h3 class="text-center heading text--primary pt-5">How to get started</h3>
+            
+
+
+            <div class="card border-0 bg--dark">
+                <div class="card-body">
+
+
+                    <div class="row gx-0">
+                        <div class="col">
+                            <div class="card bg-transparent border-0 mb-5">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <img src="static/artboards/signup.svg" class="mx-auto d-block" alt="">
+                                    </div>
+                                    <h6 class="title text-center text-white mb-3">Sign Up</h6>
+                                    <div>
+                                        <p class="text-center text-white">
+                                            Sign up on koboBox website. Fill all the required details and submit. Someone from kobobox team will be in touch.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <img src="static/artboards/vector.svg" class="mx-auto d-block" alt="">
+                            </div>
+                        </div>
+        
+                        <div class="col">
+                            <div class="card bg-transparent border-0 mb-5">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <img src="static/artboards/kyc.svg" class="mx-auto d-block" alt="">
+                                    </div>
+                                    <h6 class="title text-center text-white mb-3">KYC and Training</h6>
+                                    <div>
+                                        <p class="text-center text-white">
+                                            We validate your information and documents provided during registration and activate your account.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <img src="static/artboards/vector.svg" class="mx-auto d-block" alt="">
+                            </div>
+                        </div>
+        
+                        <div class="col">
+                            <div class="card bg-transparent border-0 mb-5">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <img src="static/artboards/fund-wallet.svg" class="mx-auto d-block" alt="">
+                                    </div>
+                                    <h6 class="title text-center text-white mb-3">Fund Wallet</h6>
+                                    <div>
+                                        <p class="text-center text-white">
+                                            Fund your wallet to start making collections from your customers in your community and earn.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="text-center">
+                        <a href="" class="btn btn-light px-5">Get started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container testimonial-section mt-5">
+
+            <div class="testimonial-slider">
+                <div class="p-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <figure class="text-center">
+                                <blockquote class="blockquote">
+                                  <p>A well-known quote, contained in a blockquote element.</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer">
+                                  Someone famous in <cite title="Source Title">Source Title</cite>
+                                </figcaption>
+                              </figure>
+                            <p>
+                                “consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
+                                labore et dolore magna aliquyam erat, sed diam voluptua.”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    
+
     <script src="static/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="static/assets//js//jquery-3-6-0.js"></script>
+    <script src="static/assets/slick/slick.min.js"></script>
     <script src="static/assets/js/main.js"></script>
 </body>
 
