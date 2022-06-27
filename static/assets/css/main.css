@@ -124,5 +124,44 @@
 
 .slick-prev:before, .slick-next:before {
     color: #306A90;
-    ;
+}
+
+
+
+.testimonial-section .card{
+    border: none;
+    box-shadow: 5px 10px 18px #F2F3F9;
+}
+
+.testimonial-section figure{
+    background-image: url(../../artboards/quotes.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-right: 20px;
+
+}
+
+.testimonial-section img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.testimonial-section p.comment{
+    font-size: 13px;
+    color: #758FA4;
+    font-family: "kobobox-regular";
+}
+
+.testimonial-section figcaption{
+    font-size: 13px;
+    color: #758FA4;
+    font-family: "poppins-regular";
+}
+
+.testimonial-section blockquote h6{
+    font-size: 13px;
+    color: #494E69;
+    font-family: "poppins-medium";
 }

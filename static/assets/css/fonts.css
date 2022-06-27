@@ -27,3 +27,8 @@
     font-family: "poppins-bold";
     src: url(../fonts/Poppins/Poppins-Bold.ttf);
 }
+
+@font-face {
+    font-family: "poppins-regular";
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
