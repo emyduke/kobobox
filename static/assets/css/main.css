@@ -165,3 +165,18 @@
     color: #494E69;
     font-family: "poppins-medium";
 }
+
+.app-download .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* padding-top: 80px; */
+}
+
+
+.app-download .overlay .btnx img{
+    max-width: 150px;
+}
+
