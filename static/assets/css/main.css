@@ -96,6 +96,14 @@
     color: #546581;
 }
 
+.text--dark{
+    color:#625D5D
+}
+
+.text--tertiary{
+    color:#431368
+}
+
 .how-it-works h5, .how-it-works h4, .kobobox-agent-section h4, .get-started-section .col h6{
     font-family: "poppins-semibold";
 }
@@ -186,14 +194,37 @@
 }
 
 
+
+.header{
+    background-color: #BFE1F0;
+}
+
+.header p{
+    font-family: "kobobox-regular";
+    font-size: 13px;
+}
+
+.policy h4{
+    font-family: "poppins-medium";
+}
+
+.policy p{
+    color: #153746;
+    font-size: 13px;
+    font-family: "kobobox-regular";
+}
+
+
+
 footer{
     margin-top: 300px;
+    padding-top: 40px;
+    border-top: 1px solid #2B6D8D
 }
 
 footer h5{
-    font-family: "poppings-bold";
+    font-family: "poppins-bold";
     font-size: 16px;
-    font-weight: 700;
 }
 
 footer .logo-btn{
