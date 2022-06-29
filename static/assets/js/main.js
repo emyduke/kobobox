@@ -19,6 +19,21 @@ $(document).ready(function(){
     $('.testimonial-slider').slick({
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              // arrows: false,
+              slidesToShow: 1
+            }
+          }
+        ]
       });
 })
