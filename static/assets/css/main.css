@@ -199,9 +199,15 @@
     background-color: #BFE1F0;
 }
 
+.header .box{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
 .header p{
-    font-family: "kobobox-regular";
+    font-family: "kobobox-semibold";
     font-size: 13px;
+    color: #000;
 }
 
 .policy h4{
@@ -214,6 +220,56 @@
     font-family: "kobobox-regular";
 }
 
+
+
+
+.mission {
+    background-image: url(../../artboards/mission.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 47%;
+}
+
+.get-in-touch a{
+    color: #000;
+    text-decoration: none;
+}
+
+.get-in-touch p{
+    font-size: 13px;
+}
+
+.get-in-touch button{
+    border-radius: 8px;
+}
+
+.get-in-touch .card{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.faq .accordion-item{
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #B2CCFC;
+}
+
+.faq .accordion{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq .accordion-body{
+    font-size: small;
+    color: #758FA4;
+}
+
+
+.accordion-button:not(.collapsed)::after, .accordion-button::after {
+    background-color: #7796a9;
+    border-radius: 25px;
+}
 
 
 footer{
