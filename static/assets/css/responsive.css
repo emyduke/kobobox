@@ -5,6 +5,30 @@
         background-size: cover;
         height: 90vh;
     }
+
+    .offcanvas{
+        max-width: 70%;
+    }
+
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+        color: #40A4D3;
+        border-bottom: none;
+    }
+
+    .nav-link{
+        color: #000;
+    }
+
+    .offcanvas-body .btn-outline-light{
+        border: 1px solid #000;
+        color: #000;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .banner-section{
+        height: 120vh;
+    }
 }
 
 /* from screen 478px wide below */
@@ -17,6 +41,14 @@
     
     .kobobox-agent-section h3{
         font-family: "poppins-medium";
+    }
+
+    .app-download{
+        height: 320px;
+    }
+
+    footer{
+        margin-top: 200px
     }
 }
 

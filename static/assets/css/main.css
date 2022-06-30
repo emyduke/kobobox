@@ -4,6 +4,11 @@
     font-family: "kobobox-semibold";
 }
 
+.wrapper{
+    max-width: 100%;
+    overflow: hidden;
+}
+
 .navbar-toggler{
     border: none;
 }
@@ -30,6 +35,10 @@
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: #40A4D3;
     border-bottom: 1px solid #40A4D3;
+}
+
+.bg-nav{
+    background-color: rgba(0,0,0,0.5);
 }
 
 .btn{
@@ -179,13 +188,18 @@
     font-family: "poppins-medium";
 }
 
+.app-download{
+    background-image: url(../../artboards/app-download-bg.svg);
+    height: 400px;
+}
+
 .app-download .overlay{
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    /* padding-top: 80px; */
+    padding-top: 100px;
 }
 
 
@@ -199,6 +213,7 @@
 
 .header{
     background-color: #BFE1F0;
+    padding-top: 50px
 }
 
 .header .box{

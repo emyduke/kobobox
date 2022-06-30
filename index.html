@@ -19,7 +19,7 @@
 
 <body>
 
-    <header class="navbar navbar-expand-md fixed-top ">
+    <header class="navbar navbar-expand-md fixed-top bg-nav">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <div class="logo-btn"><img src="static/images/logos/logo.png" width="70" /></div>
@@ -35,7 +35,11 @@
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <a class="navbar-brand" href="index.html">
+                            <div class="logo-btn"><img src="static/images/logos/logo.png" width="70" /></div>
+                        </a>
+                    </div>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -59,7 +63,7 @@
     </header>
 
 
-    <div class="wrapper">
+    <div class="wrapper w-100">
         <div class="banner-section">
             <div class="container" style="padding-top: 150px">
                 <div class="row">
@@ -571,23 +575,24 @@
 
 
 
-        <div class="container app-download position-relative mt-5">
-            <img src="static/artboards/app-download-bg.svg" class="img-fluid" alt="">
+        <div class="app-download position-relative mt-5">
 
-            <div class="overlay pt-4 pt-md-5">
-                <div class="text-center text-white mt-0 mt-md-5">
-                    <h4>Kobobox App is <br class="d-md-none" />now availbe for <br class="d-none d-md-block"/>download <br class="d-md-none"/>for free</h4>
-
-                    <div class="btnx d-flex justify-content-center" >
-                        <a href=""><img src="static/artboards/apple-store.svg" alt=""></a>
-                        <a href=""><img src="static/artboards/google-play.svg" alt=""></a>
+            <div class="container position-relative">
+                <div class="overlay">
+                    <div class="text-center text-white">
+                        <h4>Kobobox App is <br class="d-md-none" />now availbe for <br class="d-none d-md-block"/>download <br class="d-md-none"/>for free</h4>
+    
+                        <div class="btnx d-flex justify-content-center" >
+                            <a href=""><img src="static/artboards/apple-store.svg" alt=""></a>
+                            <a href=""><img src="static/artboards/google-play.svg" alt=""></a>
+                        </div>
+    
+    
+                        <div class="devices">
+                            <img src="static/artboards/screens.svg" class="img-fluid" alt="">
+                        </div>
+    
                     </div>
-
-
-                    <div class="devices">
-                        <img src="static/artboards/screens.svg" class="img-fluid" alt="">
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -598,7 +603,7 @@
         <footer class="">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3 mb-5">
                         <a class="" href="/">
                             <div class="logo-btn mb-3"><img src="static/images/logos/logo.png" width="70" /></div>
                         </a>
@@ -623,7 +628,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3 mb-5">
                         <h5 class="mb-3">INFORMATION</h5>
 
                         <ul class="list-unstyled">
@@ -632,7 +637,7 @@
                             <li><a href="contact.html?#faq">FAQ</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3 mb-5">
                         <h5 class="mb-3">CONTACT</h5>
 
                         <p>East Wing, Ground Floor, Plot 1015, Fria Close,
@@ -641,7 +646,7 @@
 
                         <a href="tel:+2349056750648">+2349056750648</a>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3 mb-5">
                         <h5 class="mb-3">SUBSCRIPTION</h5>
 
                         <p class="mb-4">You can subscribe to our news letter
