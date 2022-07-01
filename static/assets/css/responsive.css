@@ -1,3 +1,40 @@
+
+
+@media only screen and (min-width: 768px) {
+    .banner-section{
+        padding-top: 150px!important;
+        height: 60vh;
+    }
+
+    .h-md-100{
+        height: 100%!important;
+    }
+}
+
+@media only screen and (min-width: 568px) {
+    .banner-section{
+        padding-top: 150px!important;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .banner-section{
+        height: 70vh;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .banner-section{
+        height: 120vh;
+    }
+
+}
+
+
+
 /* from screens 768px below */
 @media only screen and (max-width: 768px) {
     .banner-section{
@@ -24,9 +61,7 @@
         color: #000;
     }
 
-    .h-md-100{
-        height: 100%!important;
-    }
+    
 }
 
 @media only screen and (max-width: 568px) {
@@ -41,6 +76,7 @@
         background-image: url(../../artboards/header-bg-mobile.svg);
         background-size: contain;
         height: auto;
+        padding-top: 120px!important;
     }
     
     .kobobox-agent-section h3{
@@ -54,6 +90,20 @@
     footer{
         margin-top: 200px
     }
+
+    .banner-section h1{
+        font-size: 35px;
+    }
 }
 
 
+
+@media only screen and (max-width: 350px) {
+    .banner-section{
+        padding-top: 100px!important;
+    }
+
+    .banner-section h1{
+        font-size: 30px;
+    }
+}
