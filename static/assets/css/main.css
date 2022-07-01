@@ -68,8 +68,6 @@
 .banner-section h1{
     font-family: "poppins-semibold";
     color: white;
-    /* line-height: 70px; */
-    /* font-size: 64px; */
 }
 
 
@@ -81,6 +79,14 @@
     max-width: 80px;
 }
 
+.why-section {
+    background-image: url(../../artboards/vectors/vector-group3.png);
+    background-position: left top;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 50%;
+}
 
 
 .why-section h3.title{
@@ -118,6 +124,15 @@
     color:#431368
 }
 
+.how-it-works{
+    background-image: url(../../artboards/vectors/dots-y.png);
+    background-position: left top;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 5%;
+}
+
 .how-it-works h5, .how-it-works h4, .kobobox-agent-section h4, .get-started-section .col h6{
     font-family: "poppins-semibold";
 }
@@ -128,6 +143,15 @@
 
 .kobobox-list p{
     margin-bottom: 0;
+}
+
+.kobobox-agent-section{
+    background-image: url(../../artboards/vectors/vector-group2.svg);
+    background-position: right center;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 50%;
 }
 
 .kobobox-agent-section p.first{
@@ -148,6 +172,15 @@
     color: #306A90;
 }
 
+
+.testimonial-section{
+    background-image: url(../../artboards/vectors/vectors-group.png);
+    background-position: left center;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 20px;
+}
 
 
 .testimonial-section .card{
