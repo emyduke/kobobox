@@ -88,6 +88,12 @@
 }
 
 
+.why-section .why-save{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
 .why-section h3.title{
     font-family: "poppins-bold";
 }
